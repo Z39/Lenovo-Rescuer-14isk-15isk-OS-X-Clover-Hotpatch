@@ -213,6 +213,34 @@
 					WEJJRAg=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>comment：change _Q38 to XQ38</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EzOA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEzOA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>comment：change _Q39 to XQ39</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EzOQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEzOQ==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DisabledAML</key>
@@ -230,6 +258,12 @@
 			<dict>
 				<key>Signature</key>
 				<string>DMAR</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>xh_rvp10</string>
 			</dict>
 		</array>
 		<key>FixHeaders</key>
@@ -381,6 +415,13 @@
 				</data>
 			</dict>
 		</array>
+		<key>Audio</key>
+		<dict>
+			<key>AFGLowPowerState</key>
+			<true/>
+			<key>Inject</key>
+			<integer>3</integer>
+		</dict>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0)/Pci(0x02,0)</key>
@@ -465,15 +506,25 @@
 				<data>
 				AAAbGQ==
 				</data>
+				<key>disable-external-gpu</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
 				</data>
 			</dict>
 		</dict>

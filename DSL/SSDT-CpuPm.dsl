@@ -1,5 +1,5 @@
 
-DefinitionBlock ("", "SSDT", 1, "15isk", "CpuPm", 0x00021500)
+DefinitionBlock ("", "SSDT", 2, "15isk", "CpuPm", 0x00020400)
 {
     External (_PR_.CPU0, DeviceObj)    // Warning: Unknown object
     External (_PR_.CPU1, DeviceObj)    // Warning: Unknown object

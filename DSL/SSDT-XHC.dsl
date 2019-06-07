@@ -1,65 +1,36 @@
 
-DefinitionBlock ("", "SSDT", 2, "15isk", "XHC", 0x00000000)
+// Automatic injection of XHC properties
+
+DefinitionBlock("", "SSDT", 2, "15isk", "XHC", 0)
 {
-    External (_SB_.PCI0.XHC_, DeviceObj)    // (from opcode)
-
-    If (CondRefOf (_SB.PCI0.XHC))
+    External(_SB.PCI0.XHC, DeviceObj)
+    
+    If (CondRefOf(_SB.PCI0.XHC))
     {
-        Method (_SB.PCI0.XHC._DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+        Method(_SB.PCI0.XHC._DSM, 4)
         {
-            If (LNot (Arg2))
+            If (!Arg2) { Return (Buffer() { 0x03 } ) }
+            Local0 = Package()
             {
-                Return (Buffer (One)
-                {
-                     0x03                                           
-                })
+                
+                "RM,pr2-force", Buffer() { 0, 0, 0, 0 },
+                "subsystem-id", Buffer() { 0x70, 0x72, 0x00, 0x00 },
+                "subsystem-vendor-id", Buffer() { 0x86, 0x80, 0x00, 0x00 },
+                "AAPL,current-available", Buffer() { 0x34, 0x08, 0, 0 },
+                "AAPL,current-extra", Buffer() { 0x98, 0x08, 0, 0, },
+                "AAPL,current-extra-in-sleep", Buffer() { 0x40, 0x06, 0, 0, },
+                "AAPL,max-port-current-in-sleep", Buffer() { 0x34, 0x08, 0, 0 },
             }
-
-            Return (Package (0x0E)
+            // Force USB2 on XHC if EHCI is disabled
+            
+            If (CondRefOf(\_SB.PCI0.RMD2))
             {
-                "RM,pr2-force", 
-                Buffer (0x04)
-                {
-                     0xFF, 0x3F, 0x00, 0x00                         
-                }, 
-
-                "subsystem-id", 
-                Buffer (0x04)
-                {
-                     0x70, 0x72, 0x00, 0x00                         
-                }, 
-
-                "subsystem-vendor-id", 
-                Buffer (0x04)
-                {
-                     0x86, 0x80, 0x00, 0x00                         
-                }, 
-
-                "AAPL,current-available", 
-                Buffer (0x04)
-                {
-                     0x34, 0x08, 0x00, 0x00                         
-                }, 
-
-                "AAPL,current-extra", 
-                Buffer (0x04)
-                {
-                     0x98, 0x08, 0x00, 0x00                         
-                }, 
-
-                "AAPL,current-extra-in-sleep", 
-                Buffer (0x04)
-                {
-                     0x40, 0x06, 0x00, 0x00                         
-                }, 
-
-                "AAPL,max-port-current-in-sleep", 
-                Buffer (0x04)
-                {
-                     0x34, 0x08, 0x00, 0x00                         
-                }
-            })
+                CreateDWordField(DerefOf(Local0[1]), Zero, PR2F)
+                PR2F = 0x3fff
+            }
+            Return(Local0)
         }
     }
 }
 
+// EOF

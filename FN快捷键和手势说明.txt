@@ -1,0 +1,28 @@
+键控驱动快捷键及手势说明：
+
+
+1.ApplePS2SmartTouchPad手势说明（修改在kext） 大部分可用，具体实测
+
+双指向下滚动  - 同鼠标滚轮（默认）Double fingers scrolling down - same with mouse scrolling down
+双指双点 - 放大缩小（默认）Two-finger double point - zoom in and out
+双指分开 - 放大（默认）PS:需手势放开才有效果，不像win一样实时放大效果。Splitting between two fingers - Zooming in
+双指捏合 - 缩小（默认）PS:需手势放开才有效果，不像win一样实时放大效果。Two-finger pinch - Zoom out
+双指由右边缘向左   - 通知中心（映射）（需在键盘快捷键那再手动映射，本身快捷键为无，点修改，然后作对应手势，如果识别有问题，可按crtl+alt+shift+N）Two fingers from the right edge to the left - the notification center 
+
+双指由顶部边缘下拉  - 切换全屏（默认）Two fingers pulled down from the top edge - toggle full screen
+
+三指向上 - 19访达（映射）Three fingers up - finder
+三指向下 - 9最小化（映射）Three fingers down - minimized
+三指向左 - 11后退（映射）Three fingers left - back
+三指向右 - 12前进（映射）Three fingers right - forward
+
+四指单点 - 4调度中心（默认）Four fingers point - Misson control
+四指重按 - 20强制退出（映射）Four fingers heavy press - forced exit
+四指向上 - 1应用切换（映射）Four fingers up - application switch
+四指向下 - 2关闭应用 （映射）Four fingers down - close application
+四指向左 - 6左侧空间/全屏应用程序切换（映射）Four fingers left - left space
+四指向右 - 7右侧空间/全屏应用切换（映射）Four fingers righ - right space
+
+五指单点 - 仪表盘（默认）Five fingers point - dashboard 
+五指重按 - 15显示属性（映射）Five fingers heavy press - attributes
+五指捏合 - 3启动台（映射）（需在键盘快捷键那再手动映射，本身快捷键为无，点修改，然后作对应手势，如果识别有问题，可按crtl+alt+shift+L）Five-finger pinch - launchpad
