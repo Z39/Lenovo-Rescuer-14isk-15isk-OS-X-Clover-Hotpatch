@@ -14,6 +14,7 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 * | BIOS Version:
  
  ![截图](Screen.JPG)   
+  ![截图](Screen1.JPG)  
 
 ## 支持列表
 
