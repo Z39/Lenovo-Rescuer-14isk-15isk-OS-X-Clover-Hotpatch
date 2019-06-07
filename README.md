@@ -12,7 +12,9 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 * | WiFi:Broadcom BCM93452z 802.11AC (原装无解，更换) 
 * | Bluetooth:BCM20702 (4.0) (原装无解，更换)          
 * | BIOS Version:
+ 
  ![截图](Screen.JPG)   
+
 ## 支持列表
 
 * 10.14,10.15
@@ -21,7 +23,7 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 * 长期维护更新QQ群：754447000 群已改为收费群了，请为技术服务付费，享受后期免费维护更新。入群5-10元，如果需要远程技术指导安装，30以上你看着给吧。
 
 ## 发布
-
+前期会有免费版提供，后期转维护更新后，需要打赏入群获取解压密码。
 最后发布的版本前往 [release page](https://github.com/Z39/Lenovo-Rescuer-14isk-15isk-OS-X-Clover-Hotpatch/releases) 下载即可。
 如果Github网络下载不太好，新增[蓝奏云](https://www.lanzous.com/b616223)  密码：8shm
 
@@ -35,29 +37,29 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 | ![微信打赏](微信打赏.png)                                         | ![支付宝打赏](支付宝打赏.png)                           |
 
 黑苹果相关情况
-[√ ] 显卡
-[√ ] USB 3.0
-[√ ]亮度调节
-[√ ]声卡
-[√ ]CPU
-[√ ]电源电池睡眠唤醒 电池显示可能有些时候不太稳定
-[√ ]键盘
-[√ ]触控板
-[√ ] 有线网卡
-[√ ] 无线网卡
-[√ ] 蓝牙
-[√ ] 摄像头
-[√ ]App Store/iCloud/iMessage/Facetime
-[X]SIP
-[√ ]TRIM
-[√ ]无痛更新升级
-[X]读卡器
-[√]外接显示器 HDMI
-[X]独显
+* [√ ] 显卡 核显HD530驱动
+* [√ ] USB 3.0 USB端口定制 
+* [√ ]亮度调节 FN快捷键待完成
+* [√ ]声卡 AppleALC驱动
+* [√ ]CPU变频  
+* [√ ]电源电池睡眠唤醒，这个机子电池显示可能有些时候不太稳定，目前还可以。
+* [√ ]键盘
+* [√ ]触控板 半OK吧，重要的是要作手势的定制
+* [√ ] 有线网卡
+* [√ ] 无线网卡 需要更换
+* [√ ] 蓝牙 需要更换
+* [√ ] 摄像头
+* [√ ]App Store/iCloud/iMessage/Facetime
+* [X]SIP 关闭SIP
+* [√ ]TRIM 固态默认开启
+* [√ ]无痛更新升级 支持在线升级
+* [X]读卡器 未知，没这个需求搞
+* [√]外接显示器 HDMI 
+* [X]独显 屏蔽
 
 ### 存在问题
-* 待更新
-
+* 最主要的这个机子的电池显示诡异的很，各系统版本显示可能不太稳定。
+* 其他问题待完善，本人无实机，无法实机调试，一些东西需要同机型机友帮忙测试。
 ## kexts等更新链接
 
 - Clover EFI bootloader [Link](https://github.com/Dids/clover-builder/releases)
