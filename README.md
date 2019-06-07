@@ -43,7 +43,7 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 * [√ ]声卡 AppleALC驱动
 * [√ ]CPU变频  
 * [√ ]电源电池睡眠唤醒，这个机子电池显示可能有些时候不太稳定，目前还可以。
-* [√ ]键盘 
+* [√ ]键盘 输入可用，开启内置小键盘
 * [√ ]触控板 自定义手势
 * [√ ] 有线网卡
 * [√ ] 无线网卡 需要更换
