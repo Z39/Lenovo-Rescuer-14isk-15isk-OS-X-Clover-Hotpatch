@@ -13,8 +13,7 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 * | Bluetooth:BCM20702 (4.0) (原装无解，更换)          
 * | BIOS Version:
  
- ![截图](Screen.JPG)   
-  ![截图](Screen1.JPG)  
+  ![截图](Screen0.JPG)   
 
 ## 支持列表
 
