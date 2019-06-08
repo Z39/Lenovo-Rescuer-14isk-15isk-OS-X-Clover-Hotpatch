@@ -215,7 +215,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _Q38 to XQ38</string>
+					<string>comment：change _Q38 to XQ38</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -229,7 +229,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _Q39 to XQ39</string>
+					<string>comment：change _Q39 to XQ39</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -418,7 +418,9 @@
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<false/>
+			<true/>
+			<key>Inject</key>
+			<integer>3</integer>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -523,29 +525,6 @@
 				<key>framebuffer-unifiedmem</key>
 				<data>
 				AAAAgA==
-				</data>
-			</dict>
-			<key>PciRoot(0)/Pci(0x14,0)</key>
-			<dict>
-				<key>#Comment</key>
-				<string>Intel xHCI</string>
-				<key>AAPL,current-available</key>
-				<integer>2100</integer>
-				<key>AAPL,current-extra</key>
-				<integer>2200</integer>
-				<key>AAPL,current-extra-in-sleep</key>
-				<integer>1600</integer>
-				<key>AAPL,max-port-current-in-sleep</key>
-				<integer>2100</integer>
-				<key>RM,disable_FakePCIID</key>
-				<integer>1</integer>
-				<key>subsystem-id</key>
-				<data>
-				cHIAAA==
-				</data>
-				<key>subsystem-vendor-id</key>
-				<data>
-				hoAAAA==
 				</data>
 			</dict>
 		</dict>
