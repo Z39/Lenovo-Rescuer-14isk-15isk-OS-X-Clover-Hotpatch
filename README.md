@@ -1,5 +1,5 @@
-# Lenovo-Rescuer-14isk-15isk-OS-X-Clover-Hotpatch
-Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
+# 联想 拯救者 14-isk&15-isk 安装macOS Catalina 10.15& macOS Mojave 10.14使用说明
+让你的拯救者 14-isk&15-isk笔记本吃上黑苹果
 
 [English](README-EN.md) | [中文](README.md)
 
@@ -17,7 +17,7 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 
 ## 支持列表
 
-* 10.14,10.15
+* macOS Catalina 10.15& macOS Mojave 10.14
 * ACPI补丁修复使用hotpatch方式，相关文件位于 `/CLOVER/ACPI/patched` 。
 * 远景论坛ID：39军小兵张 [Link](http://i.pcbeta.com/space-uid-4472739.html)
 * 长期维护更新QQ群：754447000 群已改为收费群了，请为技术服务付费，享受后期免费维护更新。入群5-10元，如果需要远程技术指导安装，30以上你看着给吧。
@@ -40,7 +40,7 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 最后发布的版本前往 [release page](https://github.com/Z39/Lenovo-Rescuer-14isk-15isk-OS-X-Clover-Hotpatch/releases) 下载即可。
 如果Github网络下载不太好，新增[蓝奏云](https://www.lanzous.com/b616223)  密码：8shm
 
-黑苹果相关情况
+## 黑苹果相关情况
 - [x] 显卡 核显HD530驱动
 - [x]  USB 3.0 USB端口定制 
 - [x]  亮度调节 FN+上下箭头调节
@@ -63,6 +63,8 @@ Lenovo-Rescuer-14isk-15isk hotpatch安装macOS Catalina & macOS Mojave
 
 ### 存在问题
 * 最主要的这个机子的电池显示诡异的很，各系统版本显示可能不太稳定。
+* HDMI声音输出无B0D4或HDAU设备建立
+* 据说触摸板有时候也不稳定
 * 其他问题待完善，本人无实机，无法实机调试，一些东西需要同机型机友帮忙测试。
 ## kexts等更新链接
 
