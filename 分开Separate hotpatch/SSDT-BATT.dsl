@@ -57,45 +57,55 @@ DefinitionBlock ("", "SSDT", 2, "15isk", "BATT", 0x00000000)
         Field (XCF3, ByteAcc, Lock, Preserve)
         {
             Offset (0x1C), 
-            SMDX,   256, 
+            SMDX,   256, //SMD0,   256, 
             Offset (0x60), 
-            BC0H,   8, 
-            BC1H,   8, 
-            BC2H,   8, 
-            BC3H,   8, 
+            BC0H,   8, //B1CH,   32,0x61
+            BC1H,   8, //B1CH,   32,0x62
+            BC2H,   8, //B1CH,   32,0x63
+            BC3H,   8, //B1CH,   32,0x64
+            //B2CH,   32, 0x68
+            //B1MO,   16, 0x6a
+            //B2MO,   16, 0x6c
+            //B1SN,   16, 0x6e
+            //B2SN,   16, 0x70
             Offset (0x70), 
-            BDT0,   8, 
-            BDT1,   8, 
-            Offset (0x74), 
-            BCY0,   8, 
-            BCY1,   8, 
+            BDT0,   8, //B1DT,   16, 0x71
+            BDT1,   8, //B1DT,   16, 0x72
+             //B1DT,   16, 0x74
+            //B2DT,   16, 0x76
+            Offset (0x76), 
+            BCY0,   8, //B1CY,   16, 
+            BCY1,   8, //B1CY,   16, 
+            //....
             Offset (0x8F), 
-            BXMA,   64, 
+            BXMA,   64, //B1MA,   64,
             Offset (0x98), 
-            BYMA,   64, 
+            BYMA,   64, //B2MA,   64,
             Offset (0xAA), 
-            RTP0,   8, 
-            PTP1,   8, 
-            B0ET,   8, 
-            B1ET,   8, 
+            RTP0,   8,  //RTEP,   16, 
+            PTP1,   8, //RTEP,   16, 
+            B0ET,   8, //BET2,   16,
+            B1ET,   8, //BET2,   16,
             Offset (0xB6), 
-            BTM0,   8, 
-            BTM1,   8, 
-            B0PV,   8, 
-            B1PV,   8, 
+            BTM0,   8, //B1TM,   16,
+            BTM1,   8, //B1TM,   16,
+            B0PV,   8, //BAPV,   16,
+            B1PV,   8, //BAPV,   16,
             Offset (0xC2), 
-            BAC0,   8, 
-            BAC1,   8, 
-            BDC0,   8, 
-            BDC1,   8, 
-            BDV0,   8, 
-            BDV1,   8, 
+            BAC0,   8, //BARC,   16,0xC3
+            BAC1,   8, //BARC,   16,0xC4
+            BDC0,   8, //BADC,   16,0xC5
+            BDC1,   8, //BADC,   16,0xC6
+            BDV0,   8, //BADV,   16,0xC7
+            BDV1,   8, //BADV,   16,0xC8
+            //BDCW,   16, 0xCa
+            //BDCL,   16,0xCc
             Offset (0xCC), 
-            BFC0,   8, 
-            BFC1,   8, 
+            BFC0,   8, //BAFC,   16,0xCe
+            BFC1,   8, //BAFC,   16,0xd0
             Offset (0xD0), 
-            BCR0,   8, 
-            BCR1,   8
+            BCR0,   8,  //B1CR,   16,
+            BCR1,   8 //B1CR,   16,
         }
 
         Scope (BAT1)
