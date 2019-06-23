@@ -428,15 +428,6 @@
 				AAAAgA==
 				</data>
 			</dict>
-			<key>PciRoot(0)/Pci(0x04,0)</key>
-			<dict>
-				<key>#Comment</key>
-				<string>Intel HDMI HDA</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>layout-id</key>
-				<integer>3</integer>
-			</dict>
 			<key>PciRoot(0)/Pci(0x14,0)</key>
 			<dict>
 				<key>#Comment</key>
@@ -470,7 +461,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<integer>3</integer>
+				<integer>12</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -494,6 +485,7 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
+			<string>recovery</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -602,6 +594,45 @@
 				<key>Replace</key>
 				<data>
 				igKEwOtC
+				</data>
+			</dict>
+		</array>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>External icons patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RXh0ZXJuYWw=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleAHCIPort</string>
+				<key>Replace</key>
+				<data>
+				SW50ZXJuYWw=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IOAHCIBlockStorage, Apple SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 		</array>

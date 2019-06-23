@@ -15,7 +15,7 @@ DefinitionBlock ("", "SSDT", 2, "15isk", "NDGP", 0x00000000)
     External (_SB_.PCI0.RP01.PXSX._OFF, MethodObj)    // 0 Arguments (from opcode)
     External (_SB_.PCI0.RP01.PXSX._ON_, MethodObj)    // 0 Arguments (from opcode)
     External (_SB_.PCI0.RP05.PXSX._OFF, MethodObj)    // 0 Arguments (from opcode)
-    External (_SB_.PCI0.RP05.PXSX._ON_, MethodObj)    // 0 Arguments (from opcode)
+    External (_SB_.PCI0.RP05.PXSX._ON_, MethodObj)    // 0 Arguments (from opcode)    
 
     Device (DGPU)
     {
@@ -30,7 +30,7 @@ DefinitionBlock ("", "SSDT", 2, "15isk", "NDGP", 0x00000000)
         {
             If (CondRefOf (\_SB.PCI0.PEG2.PEGP._ON)){\_SB.PCI0.PEG2.PEGP._ON ()}
             If (CondRefOf (\_SB.PCI0.PEG0.PEGP._ON)){\_SB.PCI0.PEG0.PEGP._ON ()}
-            If (CondRefOf (\_SB.PCI0.PEGP.DGFX._ON)){\_SB.PCI0.PEGP.DGFX._ON ()}
+            If (CondRefOf (\_SB.PCI0.PEGP.DGFX._ON)){ \_SB.PCI0.PEGP.DGFX._ON ()}
             If (CondRefOf (\_SB.PCI0.RP05.PXSX._ON)){\_SB.PCI0.RP05.PXSX._ON ()}
             If (CondRefOf (\_SB.PCI0.PEG.VID._PS0)){\_SB.PCI0.PEG.VID._PS0 ()}
             If (CondRefOf (\_SB.PCI0.RP01.PXSX._ON)){\_SB.PCI0.RP01.PXSX._ON ()}
