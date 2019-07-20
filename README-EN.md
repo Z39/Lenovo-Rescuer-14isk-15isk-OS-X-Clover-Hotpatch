@@ -25,7 +25,7 @@ Hackintosh your Rescuer 14-isk&15-isk Notebook
 The latest version can be downloaded on the[release page](https://github.com/Z39/Lenovo-Rescuer-14isk-15isk-OS-X-Clover-Hotpatch/releases) 
 
 ## What Works
-- [x] Graphics with full acceleration QE/CI (using Intel GPU only) + HDMI Video
+- [x] Graphics with full acceleration QE/CI (using Intel GPU only) + HDMI
 - [x] Audio using AppleALC
 - [x]  Ethernet (LAN)
 - [x]  WiFi / Bluetooth (after replacing the Intel card (incompatible) with a compatible one like Broadcom BCM4352 for example
