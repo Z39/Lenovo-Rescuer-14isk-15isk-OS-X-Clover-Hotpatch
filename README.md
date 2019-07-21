@@ -14,7 +14,7 @@
 * | BIOS Version:
  
   ![截图](Screen0.JPG)   
-  ![截图](Screen1.JPG)
+   ![截图](Screen.JPG)
 
 ## 支持列表
 

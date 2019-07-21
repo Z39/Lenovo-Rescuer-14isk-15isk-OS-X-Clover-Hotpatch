@@ -15,7 +15,7 @@ Hackintosh your Rescuer 14-isk&15-isk Notebook
 * | BIOS Version:              
 
 ![Screen](Screen0.JPG)  
-![Screen](Screen1.JPG)  
+ ![Screen](Screen.JPG)  
 
 ## Features
 
