@@ -1,7 +1,7 @@
 
 // USBInjectAll configuration/override
 
-DefinitionBlock ("", "SSDT", 2, "15isk-14isk", "UIAC-ALL", 0)
+DefinitionBlock ("", "SSDT", 2, "15isk", "UIAC-ALL", 0)
 {
     Device(UIAC)
     {
@@ -27,13 +27,13 @@ DefinitionBlock ("", "SSDT", 2, "15isk-14isk", "UIAC-ALL", 0)
                     "HS04", Package()    // Bluetooth 
                     {
                         "UsbConnector", 255,
-                        "port", Buffer() { 0x07, 0, 0, 0 },
+                        "port", Buffer() { 0x04, 0, 0, 0 },
                     },
                     
                     "HS05", Package()    // Camera
                     {
                         "UsbConnector", 255,
-                        "port", Buffer() { 0x01, 0, 0, 0 },
+                        "port", Buffer() { 0x05, 0, 0, 0 },
                     },
 
                     "HS06", Package()    // USB 2.0 left
