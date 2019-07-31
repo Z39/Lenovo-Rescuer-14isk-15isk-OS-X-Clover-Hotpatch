@@ -101,10 +101,10 @@ DefinitionBlock ("", "SSDT", 2, "15isk", "BATT", 0x00000000)
             //BDCW,   16, 0xCa
             //BDCL,   16,0xCc
             Offset (0xCC), 
-            BFC0,   8, //BAFC,   16,0xCe
-            BFC1,   8, //BAFC,   16,0xd0
-            //BAPR,   16,0xd2
-            Offset (0xD2), 
+            BFC0,   8, //BAFC,   16,0xCD
+            BFC1,   8, //BAFC,   16,0xCE
+            //BAPR,   16,0xD0
+            Offset (0xD0), 
             BCR0,   8,  //B1CR,   16,
             BCR1,   8 //B1CR,   16,
         }
