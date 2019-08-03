@@ -241,6 +241,34 @@
 					WFEzOQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Change (GPRW,2,N) to XPRW, SSDT-PRW.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R1BSVwI=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVwI=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DisabledAML</key>
