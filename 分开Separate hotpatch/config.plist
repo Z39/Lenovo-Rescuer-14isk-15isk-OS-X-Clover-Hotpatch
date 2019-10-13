@@ -257,16 +257,58 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
+					<string>change H_EC to EC</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					RUMwXw==
+					SF9FQw==
 					</data>
 					<key>Replace</key>
 					<data>
 					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Change (GPRW,2,N) to XPRW, SSDT-PRW.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R1BSVwI=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVwI=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change XHC1 to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
 					</data>
 				</dict>
 			</array>
@@ -308,6 +350,19 @@
 			<key>NoOemTableId</key>
 			<false/>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT-BATT.aml</string>
+			<string>SSDT-FN.aml</string>
+			<string>SSDT-XOSI.aml</string>
+			<string>SSDT-UIAC.aml</string>
+			<string>SSDT-GPRW.aml</string>
+			<string>SSDT-Disable-DGPU.aml</string>
+			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-XHC.aml</string>
+			<string>SSDT-ALC235.aml</string>
+			<string>ssdt.aml</string>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
