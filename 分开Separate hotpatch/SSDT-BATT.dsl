@@ -71,9 +71,9 @@ DefinitionBlock ("", "SSDT", 2, "15isk", "BATT", 0x00000000)
             Offset (0x70), 
             BDT0,   8, //B1DT,   16, 0x71
             BDT1,   8, //B1DT,   16, 0x72
-             //B1DT,   16, 0x74
-            //B2DT,   16, 0x76
-            Offset (0x76), 
+           
+            //B2DT,   16, 0x74
+            Offset (0x74), 
             BCY0,   8, //B1CY,   16, 
             BCY1,   8, //B1CY,   16, 
             //....
