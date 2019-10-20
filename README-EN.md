@@ -1,4 +1,4 @@
-# Lenovo Rescuer 14-isk&15-isk NoteBook for macOS Catalina 10.15& macOS Mojave 10.14
+# Lenovo Rescuer 14-isk&15-isk Skylake NoteBook for macOS Catalina 10.15& macOS Mojave 10.14
 
 Hackintosh your Rescuer 14-isk&15-isk Notebook
 
@@ -12,7 +12,7 @@ Hackintosh your Rescuer 14-isk&15-isk Notebook
 * | Ethernet: RTL8168/8111/8112 Gigabit Ethernet Controller
 * | WiFi:Broadcom BCM93452z 802.11AC
 * | Bluetooth:BCM20702 (4.0)        
-* | BIOS Version:              
+* | BIOS Version: the latest edition    
 
 ![Screen](Screen0.JPG)  
  ![Screen](Screen.JPG)  

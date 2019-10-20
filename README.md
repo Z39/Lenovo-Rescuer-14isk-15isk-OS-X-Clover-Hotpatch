@@ -1,4 +1,4 @@
-# 联想 拯救者 14-isk&15-isk 安装macOS Catalina 10.15& macOS Mojave 10.14使用说明
+# 联想 拯救者 14-isk&15-isk Skylake版安装macOS Catalina 10.15& macOS Mojave 10.14使用说明
 让你的拯救者 14-isk&15-isk笔记本吃上黑苹果
 
 [English](README-EN.md) | [中文](README.md)
@@ -11,7 +11,7 @@
 * | Ethernet: RTL8168/8111/8112 Gigabit Ethernet Controller
 * | WiFi:Broadcom BCM93452z 802.11AC (原装无解，更换) 
 * | Bluetooth:BCM20702 (4.0) (原装无解，更换)          
-* | BIOS Version:
+* | BIOS Version:最新版
  
   ![截图](Screen0.JPG)   
    ![截图](Screen.JPG)
@@ -63,8 +63,7 @@
 - [x]  独显 屏蔽
 
 ### 存在问题
-* 最主要的这个机子的电池显示诡异的很，各系统版本显示可能不太稳定。
-* HDMI声音输出无B0D4或HDAU设备建立
+* 最主要的这个机子的电池显示诡异的很，电池信息不在DSDT上，在SSDT上。各系统版本显示可能不太稳定，有的机子很稳定，有的机子又不稳定。
 * 据说触摸板有时候也不稳定
 * 其他问题待完善，本人无实机，无法实机调试，一些东西需要同机型机友帮忙测试。
 ## kexts等更新链接
