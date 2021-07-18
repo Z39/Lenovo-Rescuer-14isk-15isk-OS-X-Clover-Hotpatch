@@ -1,4 +1,4 @@
-# 联想 拯救者 14-isk&15-isk Skylake版安装macOS Catalina 10.15& macOS Mojave 10.14使用说明
+# 联想 拯救者 14-isk&15-isk Skylake版安装macOS 12 Monterey&macOS Catalina 10.15& macOS Mojave 10.14使用说明
 让你的拯救者 14-isk&15-isk笔记本吃上黑苹果
 
 [English](README-EN.md) | [中文](README.md)
@@ -18,7 +18,7 @@
 
 ## 支持列表
 
-* macOS Catalina 10.15& macOS Mojave 10.14
+* macOS 12 Monterey&macOS Catalina 10.15& macOS Mojave 10.14
 * ACPI补丁修复使用hotpatch方式，相关文件位于 `/CLOVER/ACPI/patched` 。
 * 远景论坛ID：39军小兵张 [Link](http://i.pcbeta.com/space-uid-4472739.html)
 * 长期维护更新QQ群：754447000 群已改为打赏群了，打赏入群5-10元吧。如果需要远程技术指导安装，30以上你看着给吧，不过我建议大家自己看我详细的新手安装文档，自己实操就更好了。
